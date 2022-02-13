@@ -8,7 +8,7 @@ on:
   pull_request:
 
 env:
-  IMAGE_NAME: trafex/php-nginx
+  IMAGE_NAME: iyuyue/php-nginx
   IMAGE_TAG: ${{ github.sha }}
 
 jobs:
